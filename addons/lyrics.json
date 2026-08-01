@@ -1,0 +1,14 @@
+{
+  "id": "lyrics",
+  "name": "Lyrics Lookup",
+  "word": "lyrics",
+  "description": "Find song lyrics online",
+  "icon": "emblem-music-symbolic",
+  "shortcut": "",
+  "version": "1.0.0",
+  "author": "spotty",
+  "action": {
+    "type": "web",
+    "url": "https://www.google.com/search?q={query}+lyrics"
+  }
+}
