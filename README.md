@@ -48,8 +48,9 @@ A manifest is a JSON file with three action types:
 ```
 
 Type `dict word` in Spotty → the URL opens with `word` substituted
-(URL-encoded). `icon` is a symbolic icon name from the system theme; leave it
-empty for a default.
+(URL-encoded). `icon` is a symbolic icon name from the GNOME/Adwaita icon
+theme (test with `gtk4-icon-browser`, or pick from
+`/usr/share/icons/Adwaita/symbolic/`); leave it empty for a default.
 
 ### `files` — search files by extension
 

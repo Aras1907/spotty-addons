@@ -3,7 +3,7 @@
   "name": "YouTube Music",
   "word": "yt",
   "description": "Search and play music on YouTube Music",
-  "icon": "multimedia-audio-player-symbolic",
+  "icon": "multimedia-player-symbolic",
   "shortcut": "",
   "version": "1.0.0",
   "author": "spotty",

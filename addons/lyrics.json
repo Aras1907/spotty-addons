@@ -3,7 +3,7 @@
   "name": "Lyrics Lookup",
   "word": "lyrics",
   "description": "Find song lyrics online",
-  "icon": "emblem-music-symbolic",
+  "icon": "edit-find-symbolic",
   "shortcut": "",
   "version": "1.0.0",
   "author": "spotty",
