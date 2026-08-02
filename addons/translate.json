@@ -1,0 +1,15 @@
+{
+  "id": "translate",
+  "name": "Translate",
+  "word": "tr",
+  "description": "Translate text to English via Google Translate",
+  "icon": "tools-check-spelling-symbolic",
+  "shortcut": "",
+  "version": "1.0.0",
+  "author": "spotty",
+  "help": "Trigger: tr\n\nType \"tr <text>\" to translate it into English.",
+  "action": {
+    "type": "web",
+    "url": "https://translate.google.com/?sl=auto&tl=en&text={query}"
+  }
+}

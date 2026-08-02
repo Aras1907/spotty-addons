@@ -1,0 +1,15 @@
+{
+  "id": "dictionary",
+  "name": "Dictionary",
+  "word": "dict",
+  "description": "Look up a word definition",
+  "icon": "accessories-dictionary-symbolic",
+  "shortcut": "",
+  "version": "1.0.0",
+  "author": "spotty",
+  "help": "Trigger: dict\n\nType \"dict <word>\" to open its definition.",
+  "action": {
+    "type": "web",
+    "url": "https://www.dictionary.com/browse/{query}"
+  }
+}
