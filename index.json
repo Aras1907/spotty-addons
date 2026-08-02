@@ -1,21 +1,5 @@
 [
   {
-    "id": "lyrics",
-    "name": "Lyrics Lookup",
-    "icon": "edit-find-symbolic",
-    "author": "spotty",
-    "version": "1.0.0",
-    "summary": "Find song lyrics online"
-  },
-  {
-    "id": "soundcloud",
-    "name": "SoundCloud",
-    "icon": "multimedia-player-symbolic",
-    "author": "spotty",
-    "version": "1.0.0",
-    "summary": "Search tracks on SoundCloud"
-  },
-  {
     "id": "dictionary",
     "name": "Dictionary",
     "icon": "accessories-dictionary-symbolic",
