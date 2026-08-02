@@ -1,13 +1,5 @@
 [
   {
-    "id": "ytmusic",
-    "name": "YouTube Music",
-    "icon": "multimedia-player-symbolic",
-    "author": "spotty",
-    "version": "1.0.0",
-    "summary": "Search and play music on YouTube Music"
-  },
-  {
     "id": "lyrics",
     "name": "Lyrics Lookup",
     "icon": "edit-find-symbolic",
