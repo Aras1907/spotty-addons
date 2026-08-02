@@ -98,6 +98,32 @@ Do NOT wrap `{query}` in your own quotes. Because shell add-ons run commands
 as the user, Spotty shows the exact command and asks for confirmation at
 install time. Users should only install shell add-ons they trust.
 
+### `help` and `help_image` (optional)
+
+`help` is usage text shown in the preview panel when the add-on is selected
+in the `addons` search; when omitted, Spotty generates instructions from the
+action type. `help_image` is an optional URL of a screenshot rendered below
+the text (downloaded once and cached):
+
+```json
+{
+  "id": "dictionary",
+  "name": "Dictionary",
+  "word": "dict",
+  "description": "Look up a word definition",
+  "icon": "accessories-dictionary-symbolic",
+  "shortcut": "",
+  "version": "1.0.0",
+  "author": "you",
+  "help": "Type \"dict <word>\" to look up a definition.",
+  "help_image": "https://example.com/screenshots/dict.png",
+  "action": {
+    "type": "web",
+    "url": "https://www.dictionary.com/browse/{query}"
+  }
+}
+```
+
 ### `shortcut`
 
 Optional GNOME-style global shortcut (e.g. `"Super+Ctrl+D"`) that opens

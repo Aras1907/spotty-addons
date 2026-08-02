@@ -10,5 +10,6 @@
   "action": {
     "type": "web",
     "url": "https://music.youtube.com/search?q={query}"
-  }
+  },
+  "help": "Trigger: yt\n\nType \"yt <song or artist>\" to search music. Press Enter on a result to play it."
 }

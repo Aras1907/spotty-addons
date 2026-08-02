@@ -10,5 +10,6 @@
   "action": {
     "type": "web",
     "url": "https://www.google.com/search?q={query}+lyrics"
-  }
+  },
+  "help": "Trigger: lyrics\n\nType \"lyrics <song name>\" to find lyrics online."
 }

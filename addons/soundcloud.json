@@ -10,5 +10,6 @@
   "action": {
     "type": "web",
     "url": "https://soundcloud.com/search?q={query}"
-  }
+  },
+  "help": "Trigger: sc\n\nType \"sc <track or artist>\" to search SoundCloud."
 }
