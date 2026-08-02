@@ -7,7 +7,7 @@
   "shortcut": "",
   "version": "1.0.0",
   "author": "spotty",
-  "help": "Trigger: dict\n\nType \"dict <word>\" to open its definition.",
+  "help": "Trigger: dict\n\nType \"dict <word>\" — the definition appears right here, and you can complete the word as you type.\n\nEnter opens the word on dictionary.com.",
   "action": {
     "type": "web",
     "url": "https://www.dictionary.com/browse/{query}"
