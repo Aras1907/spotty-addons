@@ -8,6 +8,14 @@
     "summary": "Look up a word definition"
   },
   {
+    "id": "music",
+    "name": "Music",
+    "icon": "media-playback-start-symbolic",
+    "author": "spotty",
+    "version": "1.0.0",
+    "summary": "Search and play music"
+  },
+  {
     "id": "translate",
     "name": "Translate",
     "icon": "tools-check-spelling-symbolic",
